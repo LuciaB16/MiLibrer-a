@@ -25,7 +25,7 @@ public class Operaciones {
      * @return resultado
      */
 
-    public static Float calcular(int device, float num1, float num2) {
+    public static Float calcular(int device, Float num1, Float num2) {
         switch (device) {
             case SUMA:
                 try {
