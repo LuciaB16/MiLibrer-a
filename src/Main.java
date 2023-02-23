@@ -1,4 +1,5 @@
 import com.lucia.calculadora.Operaciones;
+import com.lucia.io.EntradaSalida;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +7,7 @@ public class Main {
         int opcion;
         Float numero1,numero2;
         Float resultado;
-        opcion=EntradaSalida.entradaInteger("1-->Suma \n 2-->Resta \n 3-->Multiplicación \n 4-->División");
+        opcion= EntradaSalida.entradaInt("1-->Suma \n 2-->Resta \n 3-->Multiplicación \n 4-->División");
         numero1=EntradaSalida.entradaFloat("Teclea el primer número");
         numero2=EntradaSalida.entradaFloat("Teclea el primer número");
 
