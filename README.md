@@ -26,4 +26,7 @@ mostrando el resultado por la consola. La operación termina y permite al usuari
 Si se mete una excepción, como por ejemplo dividir entre 0, salta un mensaje de que se ha producido un error. Para que esto se produzca, usamos el método isInfinite(),
 que es un método que incorpora Java que devuelve verdadero si la variable respuesta es infinitamente grande en magnitud, y falso de lo contrario.
 
+### Raíz
+Tecleando el número 5 se realizará una raíz del radicando e índice que le introduzcamos (mediante num1 que es el radicando y num2 el índice). Muestra el ressultado por consola.
+
 [Javadoc](https://luciab16.github.io/MiLibreria/)
